@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>S.M.A</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="sr.css">
     <link rel="shortcut icon" href="Logo da sma Soluções.png" type="image/x-icon">
     <style>
+      div{
+         background-color: black;
+
+      }
+      img{
+         width: 100%;
+         height: 100%;
+      }
    a:hover{
 
 background-color: transparent;
@@ -38,7 +46,7 @@ background-color: transparent;
 </head>
 <body>
    <header>
-            
+        <div> <img src="Logo da sma Soluções.png" alt="">  </div> 
 
    </header> 
 
@@ -47,25 +55,59 @@ background-color: transparent;
 
 
       <section>
-         <h1>CADASTRO</h1>
+      
+
       <br> <br> <br>
-      <label for="nome">nome</label>
+       <label for="palavra">curso</label>
+         <input type="text" name="palavra" id="palavra">
+         <br><br>
+      <label for="nome">nome conpleto</label>
       <input type="text" name="nome" id="nome">
          <br><br> <br>
          <label for="numero">numero de telefone</label>
          <input type="number" name="numero" id="numero">
          <br> <br> 
-         <label for="palavra">palavra passe</label>
-         <input type="password" name="palavra" id="palavra">
-             
-                <br> <br> <br> 
-                <a href="mes.html"><input type="button" value="Entrar" class="Entrar"></a>
+           <label for="numero">numero do BI</label>
+         <input type="number" name="numero" id="numero">
+         <label for="palavra">data de nascimento</label>
+         <input type="number" name="palavra" id="palavra">
+             <br> <br> 
+         <label for="palavra">morada</label>
+         <input type="text" name="palavra" id="palavra">
+         <nav>
+              <label for="">manhã</label>
+          <input type="checkbox" name="manha" id="manha">
+          
+            <label for="">tarde</label>
+          <input type="checkbox" name="tarde" id="tarde">
+         </nav>
+         <br> <br>
+                 
+                <a href="mes.html"><input type="button" value="Terminar" class="Entrar" onclick="pdf()"></a>
 
-
-
+  
 
 
       </section>
+
+
+
+
+<script>
+function pdf(){
+alert("vai vir uma solisitacao para trasformar os seu dados em pdf para inpresao porfavor aseite e fasa a inpresao do pdf")
+print()
+
+
+}
+
+
+
+
+</script>
+
+
+
 
 
     
