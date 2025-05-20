@@ -24,8 +24,9 @@ body{
     min-height: 100vh;
 }
 header{
-    padding: 20px;
+   
     font-size: 2em;
+    
 }
 
 
@@ -52,7 +53,7 @@ a{
 }
 li{
     list-style: none;
-    padding: 10px;
+    padding:  10px;
     border-radius: 10px 10px ;
 }
 a:hover{
