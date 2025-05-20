@@ -54,4 +54,16 @@ div > img {
 
 
    }
+@media (max-width: 480px) {
+    section {
+        margin: 40px auto;
+    }
 
+    section > div > img {
+        max-height: 120px;
+    }
+
+    input {
+        font-size: 0.9em;
+    }
+}
