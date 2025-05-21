@@ -109,6 +109,10 @@ margin: -1;
         margin: 0px;
         width: 100vh;
     }
+    ul{
+        padding: 0px;
+        width: 80%;
+    }
     a{
         padding: 0px;
     }
