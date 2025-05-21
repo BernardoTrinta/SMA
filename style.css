@@ -105,14 +105,21 @@ margin: -1;
 
     header {
         font-size: 1.2em;
+        padding: 0px;
+        margin: 0px;
+        width: 100vh;
+    }
+    li{
+        padding: 0px;
+        
     }
     body{
         width: 100vw;
         height: 100vh;
     }
     video{
-        height: 90%;
-        width: 90%;
+        height: 50%;
+        width: 50%;
     }
 
     .cadas {
