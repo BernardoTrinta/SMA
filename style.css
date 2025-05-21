@@ -113,6 +113,9 @@ margin: -1;
         padding: 0px;
         width: 80%;
     }
+    nav{
+        width: 400px;
+    }
     a{
         padding: 0px;
     }
