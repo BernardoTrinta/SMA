@@ -109,9 +109,12 @@ margin: -1;
         margin: 0px;
         width: 100vh;
     }
+    a{
+        padding: 0px;
+    }
     li{
         padding: 0px;
-        
+
     }
     body{
         width: 100vw;
